@@ -1,5 +1,3 @@
-
-
 import Button from "./Button.jsx";
 
 export default function Sidebar({onStartAddProject, projects}) {
