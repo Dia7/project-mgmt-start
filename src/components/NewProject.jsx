@@ -30,9 +30,10 @@ export default function NewProject({onAdd}) {
 
   return (
   <>
-    <Modal ref={modal}>
-      <h1>Please fill in all fields</h1>
-      <p>All fields should be properly filled in</p>
+    <Modal ref={modal} buttonCaption="Close">
+      <h1 className="text-xl font-bold text-stone-700 my-4">Please fill in all fields</h1>
+      <p className="text-stone-600 mb-4">Oops.. looks like you forgot to fill a field!</p>
+      <p className="text-stone-600 mb-4">Please fill valid data in all fields!</p>
     </Modal>
     <div className="w-[35rem] mt-16">
         <menu className="flex items-center justify-end gap-4 my-4">
