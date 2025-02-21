@@ -1,6 +1,6 @@
 import Button from "./Button.jsx";
 
-export default function Sidebar({onStartAddProject, projects}) {
+export default function Sidebar({onStartAddProject, projects, onSelectProject, selectedProjectId}) {
   return (
     <aside className=" px-8 py-16 bg-stone-900 text-stone-50 md:w-72 rounded-r-xl">
       <h2 className="mb-8 font-bold uppercase md:text-xl text-stone-200">Your projects</h2>
